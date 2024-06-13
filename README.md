@@ -46,6 +46,7 @@
 > | MYSQL_DB_USERNAME="root" | User to connect to the MySQL Database |
 > | NODE_ENV="development" | Used for development purposes |
 > | API_PREFIX="/api/v1" | API's prefix for default routes |
+
 </details>
 
 <details>
@@ -54,6 +55,7 @@
 ### DB Initialization
 
 Setup database: `npm run db:full-init`
+
 > [!NOTE]
 > This command will drop & rebuild the whole database. Then tables get created, and populated by seeders.
 > You can find the Sequelize configuration in the file `.sequelizerc` at root level
