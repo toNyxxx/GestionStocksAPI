@@ -11,11 +11,10 @@ Be sure to test all code for correctness and to test database migrations in a te
 
 ### Setup
 1. Install dependencies: `npm install`
-2. Setup database: `npm run db:up`
+2. Setup database: `npm run db:full-init`
 
 ### Run
-- Local development: `npm run dev`
-- Production build: `npm run build && npm start`
+- Local development: `npm start`
 
 ## Bug Reports
 Please report any bugs with generated code at [Sequelize UI Issues](https://github.com/tomjschuster/sequelize-ui/issues).

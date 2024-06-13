@@ -1,0 +1,1 @@
+export * as DepartmentDAL from './department.dal'

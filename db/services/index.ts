@@ -1,0 +1,1 @@
+export * as DepartmentService from './department.service';
